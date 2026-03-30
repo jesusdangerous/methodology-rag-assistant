@@ -1,0 +1,28 @@
+.env
+.env.*
+!.env.example
+
+# Go
+bin/
+dist/
+tmp/
+*.test
+*.out
+coverage.out
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# Docker / local caches
+inference_server/model-cache/

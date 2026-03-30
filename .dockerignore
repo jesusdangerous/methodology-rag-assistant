@@ -1,0 +1,12 @@
+.git
+.gitignore
+*.md
+*.log
+.env
+bin
+dist
+tmp
+coverage.out
+inference_server/model-cache
+inference_server/.venv
+inference_server/__pycache__
